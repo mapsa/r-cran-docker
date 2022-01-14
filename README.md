@@ -10,9 +10,10 @@ Final result looks like this:
 
 1. Install vscode: https://code.visualstudio.com/download
 1. Install the R extension: https://marketplace.visualstudio.com/items?itemName=Ikuyadeu.r
+1. Clone this repo and open the folder `r-cran-docker` on vscode
 1. Go to `View -> Command Palette...` and type `Open Folder in Container`
 1. Open `HellowWorld.R` and go to `Run -> Run Without Debugging`.
-1. To run the `ggplot-example.R` you need to install the package `ggplot2` first in the `R interactive` terminal. 
+1. To run the `ggplot-example.R` you need to install the package `ggplot2` first in the `R interactive` terminal: 
     ```
     install.packages("ggplot2")
     ```
